@@ -1,0 +1,18 @@
+.odd{
+    background-color: rgba(168, 0, 0, 0.568);
+    font-size: 18px;
+    font-family: sans-serif;
+}
+
+.big{
+    font-size:30px;
+}
+
+#for_two{
+    color:#0000ff;
+    font-size: 48px;
+}
+#for_four{
+    background-color: rgb(150,200,0,1);
+    font-weight: bold;
+}
