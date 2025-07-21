@@ -9,7 +9,7 @@ body {
   margin: 0;
   background: #aaa;
   color: #333;
-  /* I'll give you this one for free lol */
+  /* I'll give you this one for free */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -43,7 +43,9 @@ body {
   font-size: 16px;
   height: 24px;
   width: 24px;
- 
+  display: flex;
+  align-items: center;
+  justify-content: center;
   border: 1px solid #eee;
   padding: 0;
 }
@@ -66,13 +68,19 @@ button.cancel {
   color: royalblue;
 }
 
-.modal{
-  display:flex;
-  
+/* SOLUTION: */
+
+.modal {
+  display: flex;
+  gap: 16px;
+  padding: 16px;
 }
-.icon{
+
+.icon {
+  /* this keeps the icon from getting smashed by the text */
   flex-shrink: 0;
 }
+/* header container should be wrapped around the button element as well in order for flex style to work */
 .header {
   display: flex;
   align-items: center;
@@ -82,4 +90,6 @@ button.cancel {
   margin-bottom: 8px;
 }
 
-
+.text {
+  margin-bottom: 16px;
+}
