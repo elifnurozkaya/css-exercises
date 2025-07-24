@@ -14,16 +14,75 @@ body {
   height: 72px;
   background: #eee;
   color: darkmagenta;
+  text-align: center;
 }
 
 .sidebar {
   width: 300px;
   background: royalblue;
   box-sizing: border-box;
+  font-size: 1.6rem;
 }
 
 .card {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
+  
+  width:400px;
+  max-height: 400px;
+}
+
+body{
+  
+  display:flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+
+.main{
+  display:flex;
+  flex:1;
+  
+}
+.content{
+  display:flex;
+  flex-direction: column;
+  
+}
+.c-left{
+  display: flex;
+  flex-wrap: wrap;
+
+}
+.c-right{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.header{
+  font-size: 2.5rem;
+  font-weight: bold;
+  display:flex;
+  align-items: center;
+  padding-left: 0.6rem;
+}
+.sidebar{
+  flex:0 0 300px;
+  
+  
+}
+.footer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+a{
+  color:#eee;
+  text-decoration: none;
+}
+li{
+  list-style-type: none;
 }
